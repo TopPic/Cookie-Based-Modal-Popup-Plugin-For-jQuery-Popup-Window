@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ts Online Mobile</title>
+  <meta name="description" content="Ts Online พจญภัยป่วนมิติ">
+  <meta name="keywords" content="">
+  <meta name="author" content="Playpark Co.,Ltd Thailand">
+  <meta name="copyright" content="Playpark Co.,Ltd Thailand">
+
+
+  <!-- START: Facebook Meta -->
+  <meta property="og:title" content="Ts Online พจญภัยป่วนมิติ">
+  <meta property="og:type" content="game">
+  <meta property="og:url" content="https://tsonline.playpark.com/th-th/gold/">
+  <meta property="og:image" content="https://tsonline.playpark.com/th-th/gold/images/fb-share.jpg">
+  <meta property="og:site_name" content="playpark.com">
+  <meta property="og:description" content="Ts Online พจญภัยป่วนมิติ Glod Daily Login">
+  <!-- END: Facebook Meta -->
+  <link rel="shortcut icon" href="https://tsonline.playpark.com/th-th/wp-content/uploads/2018/10/favicon.png">
+  <!-- Bootstrap core CSS -->
+  <!-- <link rel="stylesheet" href="https://tsonline.playpark.com/th-th/gold/css/bootstrap.min.css">
+  <script src="https://tsonline.playpark.com/th-th/gold/js/popper.min.js"></script> -->
+  <!-- Custom styles for this template -->
+  <link href="https://tsonline.playpark.com/th-th/gold/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://tsonline.playpark.com/th-th/gold/css/playpark.custom.css" rel="stylesheet">
+  <link href="https://tsonline.playpark.com/th-th/gold/css/hover.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit|Sriracha" rel="stylesheet">
+</head>
+
+
+<body style="background-color: #000">
+
+  <div id="playpark"></div>
+  <div class="daily-login-body">
+    <div class="floating-btn-main d-none d-lg-block">
+      <div class="row">
+        <div class="col-12">
+          <a href="https://tsonline.playpark.com/th-th/" target="_blank">
+            <img src="https://tsonline.playpark.com/th-th/gold/images/btn-enter-site.png" class="img-fluid"
+              id="btn-website">
+          </a>
+        </div>
+        <div class="col-12">
+          <a href="https://tsonline.playpark.com/th-th/news/gold-daily-30-days/" target="_blank">
+            <img src="https://tsonline.playpark.com/th-th/gold/images/btn-more-detail.png" class="img-fluid"
+              id="btn-news">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="float-md-menu d-block d-lg-none  fixed-bottom px-3 py-2  ff-omyim-l "
+      style="display: none;z-index: 99999">
+      <div class="container ff-DisplayProBold">
+        <div class="row no-gutters">
+          <div class=" col-6 px-1">
+            <a href="https://tsonline.playpark.com/th-th/" target="_blank" class="a-none" id="btn--m-website">
+              <div class="btn-float-xs ">
+                <i class="fa fa-home" aria-hidden="true"></i> เข้าสู่เว็บไซต์
+              </div>
+            </a>
+          </div>
+          <div class="col-6  px-1">
+            <a href="https://tsonline.playpark.com/th-th/news/gold-daily-30-days/" target="_blank" class="a-none"
+              id="btn-m-news">
+              <div class="btn-float-xs">
+                <i class="fas fa-flag"></i> รายละเอียดกิจกรรม
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="theme-section-dailylogin pt-5 position-relative ff-kn" data-stellar-background-ratio="0.2">
+      <div class="container">
+        <div class="row  position-relative">
+          <div class="col-12 col-lg-9 position-relative">
+
+            <!-- Game Logo -->
+            <div class="row text-center">
+              <div class="col-12">
+                <div class="logo">
+                  <img src="https://tsonline.playpark.com/th-th/gold/images/header-logo.png" class="img-fluid" id="l1">
+                </div>
+              </div>
+            </div>
+
+            <!-- Text Header -->
+            <div class="row text-center">
+              <div class="col-12">
+                <div class="text-top-header">
+                  <img src="https://tsonline.playpark.com/th-th/gold/images/daily-text-header.png"
+                    class="img-fluid mt-2">
+                </div>
+              </div>
+            </div>
+
+            <!-- Daily Box -->
+            <div class="row mt-4 py-4 px-3 theme-dailyitem-box">
+              <div class="col">
+                <div class="row text-center">
+
+                  <!-- Day 1 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <!-- <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-01.png" class="img-fluid" id="daily-reward-1" onload="test();"> -->
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-01.png"
+                            class="img-fluid" id="daily-reward-1">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 1
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-1">
+                          แตรส่งเสียง
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 2 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2 ">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-02.png"
+                            class="img-fluid" id="daily-reward-2">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 2
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-2">
+                          เหรียญทอง
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 3 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-03.png"
+                            class="img-fluid" id="daily-reward-3">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 3
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-3">
+                          ถุงโชคขนนก
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 4 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-04.png"
+                            class="img-fluid" id="daily-reward-4">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 4
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-4">
+                          ชิ้นส่วนยุทธภัณฑ์
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 5 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-05.png"
+                            class="img-fluid" id="daily-reward-5">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 5
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-5">
+                          ถุงยาประสพการณ์
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 6 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-06.png"
+                            class="img-fluid" id="daily-reward-6">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 6
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-6">
+                          ชิ้นส่วนขุนพล
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 7 -->
+                  <div class="col-12 col-lg my-2 px-2">
+                    <div class="day-box-gold">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-07.png"
+                            class="img-fluid" id="daily-reward-7">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 7
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-7">
+                          ตั๋วสุ่มขุนพล
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Items Row 1 -->
+
+                <!-- Line Row -->
+                <div class="row">
+                  <div class="col">
+                    <div class="daily-line-row my-2">
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-center">
+
+                  <!-- Day 8 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-08.png"
+                            class="img-fluid" id="daily-reward-8">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 8
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-8">
+                          เทพโชคลาภใหญ่
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 9 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2 ">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative  ">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-09.png"
+                            class="img-fluid" id="daily-reward-9">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 9
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-9">
+                          เหรียญทอง
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 10 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-10.png"
+                            class="img-fluid" id="daily-reward-10">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 10
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-10">
+                          ถุงนำโชคหินวิเศษ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 11 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-11.png"
+                            class="img-fluid" id="daily-reward-11">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 11
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-11">
+                          ถุงเพิ่มความสามารถ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 12 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-12.png"
+                            class="img-fluid" id="daily-reward-12">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 12
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-12">
+                          ถุงยาประสบการณ์
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 13 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-13.png"
+                            class="img-fluid" id="daily-reward-13">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 13
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-13">
+                          ถุงยาหยั่งรู้พาหนะ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 14 -->
+                  <div class="col-12 col-lg my-2 px-2">
+                    <div class="day-box-gold">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-14.png"
+                            class="img-fluid" id="daily-reward-14">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 14
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-14">
+                          ตั๋วสุ่มการ์ด
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Items Row 2 -->
+
+                <!-- Line Row -->
+                <div class="row">
+                  <div class="col">
+                    <div class="daily-line-row my-2">
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-center">
+
+                  <!-- Day 15 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-15.png"
+                            class="img-fluid" id="daily-reward-15">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 15
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-15">
+                          แตรส่งเสียง
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 16 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2 ">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-16.png"
+                            class="img-fluid" id="daily-reward-16">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 16
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-16">
+                          เหรียญทอง
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 17 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-17.png"
+                            class="img-fluid" id="daily-reward-17">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 17
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-17">
+                          ถุงโชคขนนก
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 18 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-18.png"
+                            class="img-fluid" id="daily-reward-18">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 18
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-18">
+                          ชิ้นส่วนยุทธภัณฑ์
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 19 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-19.png"
+                            class="img-fluid" id="daily-reward-19">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 19
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-19">
+                          ถุงยาประสบการณ์
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 20 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-20.png"
+                            class="img-fluid" id="daily-reward-20">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 20
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-20">
+                          ชิ้นส่วนขุนพล
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 21 -->
+                  <div class="col-12 col-lg my-2 px-2">
+                    <div class="day-box-gold">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-21.png"
+                            class="img-fluid" id="daily-reward-21">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 21
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-21">
+                          ตั๋วสุ่มขุนพล
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Items Row 3 -->
+
+                <!-- Line Row -->
+                <div class="row">
+                  <div class="col">
+                    <div class="daily-line-row my-2">
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-center">
+
+                  <!-- Day 22 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-22.png"
+                            class="img-fluid" id="daily-reward-22">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 22
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-22">
+                          เทพโชคลาภใหญ่
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 23 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2 ">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-23.png"
+                            class="img-fluid" id="daily-reward-23">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 23
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-23">
+                          เหรียญทอง
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 24 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-24.png"
+                            class="img-fluid" id="daily-reward-24">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 24
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-24">
+                          ถุงนำโชคหินวิเศษ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 25 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-25.png"
+                            class="img-fluid" id="daily-reward-25">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 25
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-25">
+                          ถุงเพิ่มความสามารถ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 26 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-26.png"
+                            class="img-fluid" id="daily-reward-26">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 26
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-26">
+                          ถุงยาประสพการณ์
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 27 -->
+                  <div class="col-6 col-sm-4 col-lg my-2 px-2">
+                    <div class="day-box">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-27.png"
+                            class="img-fluid" id="daily-reward-27">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 27
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-27">
+                          ถุงยาหยั่งรู้พาหนะ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Day 28 -->
+                  <div class="col-12 col-lg my-2 px-2">
+                    <div class="day-box-gold">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/item-day-28.png"
+                            class="img-fluid" id="daily-reward-28">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          DAY 28
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-28">
+                          ตั๋วสุ่มการ์ด
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Items Row 3 -->
+
+                <!-- Line Row -->
+                <div class="row">
+                  <div class="col">
+                    <div class="daily-line-row my-2">
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-center mt-3">
+                  <div class="col">
+                    <img src="https://tsonline.playpark.com/th-th/gold/images/title-2.png" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row text-center align-items-center">
+
+                  <!-- Day 28 -->
+                  <div class="col my-2 px-2">
+                    <div class="day-box-gold py-4">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/Item-gold-5000-1.png"
+                            class="img-fluid" id="daily-reward-29">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          รางวัลพิเศษ ลุ้นรับ
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-29">
+                          ตำลึงทอง 5000
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Day 28 -->
+
+                  <div class="col-auto">
+                    <img src="https://tsonline.playpark.com/th-th/gold/images/title-4.png" class="img-fluid">
+                  </div>
+                  <div class="col my-2 px-2">
+                    <div class="day-box-gold py-4">
+                      <div class="row">
+                        <div class="col-12 position-relative">
+                          <img src="https://tsonline.playpark.com/th-th/gold/images/items/Item-gold-5000-2.png"
+                            class="img-fluid" id="daily-reward-30">
+                        </div>
+                        <div class="col-12 daily-day-template mt-2">
+                          รางวัลพิเศษ ลุ้นรับ
+                        </div>
+                        <div class="col-12 daily-itemname-template mt-1" id="daily-name-30">
+                          ทองคำแท่งหนัก 1 สลึง ลายปาโต้เยา
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Daily Box -->
+            <div class="row mt-5 py-4 px-3 theme-dailyitem-box">
+              <div class="col mt-3">
+                <div class="row text-center">
+                  <div class="col">
+                    <img src="https://tsonline.playpark.com/th-th/gold/images/title-3.png" class="img-fluid">
+                  </div>
+                </div>
+                <div class="row mx-0 sec3-role-box p-3 text-left mt-5 mb-3">
+                  <div class="col px-0">
+                    <div class="row my-2">
+                      <div class="col-12 col-lg-auto sec3-role-title-width">
+                        <i class="fas fa-clock"></i> ระยะเวลากิจกรรม
+                      </div>
+                      <div class="col">
+                        14 พฤษภาคม 2562 - 17 มิถุนายน 2562
+                      </div>
+                    </div>
+                    <div class="row my-2">
+                      <div class="col-12 col-lg-auto sec3-role-title-width">
+                        <i class="fas fa-flag"></i> กติกา
+                      </div>
+                      <div class="col">
+                        <ol class="sec3-role-list-ps pl-3">
+                          <li>
+                            ผู้เล่นจะต้อง Login เข้าเกม TS Online Mobile อย่างน้อย 1 ครั้งก่อน
+                            หลังจากเข้าเล่นเกม TS Online Mobile แล้วให้กดปุ่ม “Event” ทางด้านขวาบนของหน้าจอ
+                          </li>
+                          <li>
+                            หลังจากนั้นให้ที่ปุ่ม “ล็อคอินประจำวัน” ไอเทมของรางวัลจะเข้าตัวละครให้อัตโนมัติ
+                          </li>
+                          <li>
+                            ระบบจะให้ผู้เล่นรับรางวัลตามลำดับ ไม่สามารถข้ามไปรับรางวัลอื่นได้
+                          </li>
+                          <li>
+                            หากผู้เล่นล็อคอินเข้าเกมอย่างน้อย 30 วัน ในช่วงเวลากิจกรรม
+                            จะมีสิทธิ์ลุ้นเป็นผู้โชคดีรับรางวัลพิเศษ 5 รางวัล
+                          </li>
+                          <li>
+                            ประกาศผลภายในวันที่ 21 มิ.ย. 2562 ที่หน้าแฟนเพจ PlayPark TS Online Mobile TH
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div class="row my-2">
+                      <div class="col-12 col-lg-auto sec3-role-title-width">
+                        <i class="fas fa-flag"></i> ตัวอย่าง
+                      </div>
+                      <div class="col">
+                        <ol class="sec3-role-list-ps pl-3 mb-0">
+                          <li>
+                            ตัวอย่าง 1 : ผู้เล่นเข้าเกม 3 วัน ระบบจะมอบรางวัลครั้งที่ 1, 2, 3 ตามลำดับ
+                          </li>
+                          <li>
+                            ตัวอย่าง 2 : ผู้เล่นเข้าเกมวันที่ 1, 2, 3 และรับรางวัลครั้งที่ 1, 2, 3
+                            แต่ผู้เล่นไม่ได้เข้าเกมในวันที่ 4, 5, 6
+                            และกลับมา Login เข้าเกมอีกครั้งในวันที่ 7, 8 ระบบจะมอบรางวัลครั้งที่ 4, 5
+                            ให้กับตัวละครของท่าน
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="theme-line-sec">
+  </div>
+  <footer class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center mb-3">
+            <img src="https://tsonline.playpark.com/th-th/wp-content/uploads/2018/10/footer-ci.png" class="img-fluid"
+              alt="">
+          </div>
+          <p class="text-center">© 2017 Chinesegamer International Corp. All Rights Reserved.©2017 ASIASOFT CORPORATION
+            PUBLIC COMPANY LIMITED. ALL RIGHT RESERVED</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--jQuery-->
+  <!-- <script src="https://tsonline.playpark.com/th-th/gold/js/jquery.min.js"></script> -->
+  <script src="http://sf2.gg.in.th/home/js/jquery.min.js"></script>
+  <!--Bootstrap-->
+  <!-- <script src="https://tsonline.playpark.com/th-th/gold/js/bootstrap.min.js"></script> -->
+
+  <!-- Javascript Custom -->
+  <!-- <script src="https://tsonline.playpark.com/th-th/gold/js/playpark.custom.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+
+  <!-- Parallax -->
+  <!-- <script src="https://tsonline.playpark.com/th-th/gold/js/jquery-2.0.2.js"></script> -->
+  <!-- <script src="https://tsonline.playpark.com/th-th/gold/js/jquery.stellar.js"></script>
+  <script>
+    $(function () {
+      $.stellar({
+        horizontalScrolling: false,
+        verticalOffset: 0
+      });
+    });
+  </script> -->
+
+  <!-- <script src="https://media-web.playpark.com/cookie/js/light-new.js"></script> -->
+  <script src="Z:\Top\WM-Project\Cookie-Based-Modal-Popup-Plugin-For-jQuery-Popup-Window\js\light-new.js"></script>
+</body>
+
+</html>
